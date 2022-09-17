@@ -45,7 +45,7 @@
     &::before{
         content: '';
         display: inline-block;
-        background-image: url(../img/Experience.png);
+        background-image: url(../img/flag.svg);
         margin-left: 5px;
         width: 32px;
         height: 32px;
@@ -73,7 +73,7 @@
     &::before{
         content: '';
         display: inline-block;
-        background-image: url(../img/Pro\ bono.png);
+        background-image: url(../img/red-star.svg);
         margin-left: 5px;
         width: 32px;
         height: 32px;
@@ -81,40 +81,37 @@
         top: 10px;
         left: -50px;
         background-repeat: no-repeat;
-    }
-}
+    }}
+
 .about-us-border{
     border-left: 4px solid #E6E6F0;
     padding-left: 30px;
     @media screen and (max-width: 1000px){
         padding-top: 30px;
         border-left: none;
-    }
-}
-.padding-about-us{
-    padding: 35px 0px;
-}
-.margin-left-about-us{
-    margin-left: 40px;
-}
-.padding-about-us-bottom{
-    padding-bottom: 75px;
-}
+    }}
+
+.padding-about-us{padding: 35px 0px;}
+
+.margin-left-about-us{margin-left: 40px;}
+
+.padding-about-us-bottom{padding-bottom: 75px;}
+
 .img-about-us{
     transform: translate(0%,50%);
     width: 100%;
     height: 500px;
-    background-image: url(../img/image-team.png);
+    background-image: url(../img/team.png);
     background-repeat: no-repeat;
     overflow: hidden;
-    background-position: center;
-}
+    background-position: center;}
+
 .block-img-us{
     position: relative;
     width: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
+    transform: translate(-50%, -50%);}
+
 .text-img-about-us{
     position: absolute;
     opacity: 0.8;
@@ -145,50 +142,44 @@
         letter-spacing: 30px;
     }
 }
-.img-brand{
-    max-width: 100%;
-}
-.flex-us{
-    display: flex;
-}
+
+.img-brand{max-width: 100%;}
+
+.flex-us{display: flex;}
+
 .owl-theme .owl-dots .owl-dot span {
     width: 16px;
     height: 16px;
     background: #24A3FF;
-    opacity: 0.2;
-
-}
+    opacity: 0.2;}
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #24A3FF;
-    opacity: 1;
-}
+    opacity: 1;}
+
 .text-us-bolt{
     font-weight: 600;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 30px 0px   ;
-}
-.owl-theme .owl-nav.disabled+.owl-dots {
-    padding : 15px 0px;
-}
+    padding: 30px 0px;}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {padding : 15px 0px;}
+
 .owl-carousel .owl-item img {
-    width: 300px;
     padding: 0px 20px;
     @media screen and (max-width: 1400px){
-        width: 100%;
-    }
+        width: 100%;}
 }
+
 .disp-none-us{
     @media screen and (max-width: 1000px){
-        display: none;
+        display: none;}
     }
-}
+
 .aline-center-us{
     @media screen and (max-width: 1000px){
         text-align: center;
-        margin-top: 40px;
-    }
-    
+        margin-top: 40px;}    
 }

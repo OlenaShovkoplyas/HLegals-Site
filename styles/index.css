@@ -1099,7 +1099,7 @@ a.list-style-blue {
 .about-us-before::before {
   content: "";
   display: inline-block;
-  background-image: url(../img/Experience.png);
+  background-image: url(../img/flag.svg);
   margin-left: 5px;
   width: 32px;
   height: 32px;
@@ -1125,7 +1125,7 @@ a.list-style-blue {
 .about-us-before-3::before {
   content: "";
   display: inline-block;
-  background-image: url(../img/Pro\ bono.png);
+  background-image: url(../img/red-star.svg);
   margin-left: 5px;
   width: 32px;
   height: 32px;
@@ -1162,7 +1162,7 @@ a.list-style-blue {
   transform: translate(0%, 50%);
   width: 100%;
   height: 500px;
-  background-image: url(../img/image-team.png);
+  background-image: url(../img/team.png);
   background-repeat: no-repeat;
   overflow: hidden;
   background-position: center;
@@ -1247,7 +1247,6 @@ a.list-style-blue {
 }
 
 .owl-carousel .owl-item img {
-  width: 300px;
   padding: 0px 20px;
 }
 @media screen and (max-width: 1400px) {
