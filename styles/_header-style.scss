@@ -1,3 +1,13 @@
+a{
+    text-decoration: none;
+    color: #fff;
+    &:hover{
+        color: #FFFFFF;
+    }
+}
+ol, ul {
+    margin-bottom: 16px;
+}
 .menu-burger{
     display: none;
     position: absolute;
