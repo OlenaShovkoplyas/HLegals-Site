@@ -27,7 +27,7 @@ ol, ul {
     transition: color 0.3s ease;
 }
 .menu-burger a:hover{
-    color: #F0145A;
+    color: $pink;
 }
 .menu-burger input {
     display: block;
@@ -173,8 +173,9 @@ menu li{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    @media screen and (max-width: 1050px){color: #B3B3BA;}
-
+    @media screen and (max-width: 1050px){
+        color: #B3B3BA;
+    }
     &::after{
         content: '';
         display: inline-block;
@@ -185,9 +186,10 @@ menu li{
         position: absolute;
         left: 175px;
         top: 7px;
-        @media screen and (max-width: 1050px){display: none;}
+        @media screen and (max-width: 1050px){
+            display: none;
+        }
     }
-
     &::before{
         content: '';
         display: inline-block;
@@ -198,9 +200,11 @@ menu li{
         position: absolute;
         left: 7px;
         top: 7px;
-        @media screen and (max-width: 1050px){display: none;}
-    }}
-
+        @media screen and (max-width: 1050px){
+            display: none;
+        }
+    }
+}
 a {
     &.language{
         @include font (12px,700);
@@ -209,41 +213,45 @@ a {
             padding: 10px;
             background: $pink;
             color: #FFFFFF;
-            border-radius: 8px;}
+            border-radius: 8px;
+        }
     }
 }
-
 .active-lang{
     padding: 10px;
     background: $pink;
-    border-radius: 8px;}
-
+    border-radius: 8px;
+}
 .address-header{
     font-family: 'TT Norms';
     font-style: normal;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    @media screen and (max-width: 1050px){display: none;}
+    @media screen and (max-width: 1050px){
+        display: none;
+    }
 }
-
 .list-style{
     font-size: 18px;
-    line-height: 21px;}
-
+    line-height: 21px;
+}
 .facebook-img-header{
     margin-bottom: 3px;
     display: inline-block;
     @media screen and (max-width: 1050px){
-        display: none;}
+        display: none;
+    }
 }
-
 .cookie-img{
-    @media screen and (max-width: 1350px){width: 70%;}
+    @media screen and (max-width: 1350px){
+        width: 70%;
+    }
 
-    @media screen and (max-width: 500px){width: 55%;}
+    @media screen and (max-width: 500px){
+        width: 55%;
+    }
 }
-
 .cookie-block{
     position: absolute;
     left: 164px;
@@ -251,61 +259,103 @@ a {
     width: 200px;
     @media screen and (max-width: 1350px){
         bottom: 49px;
-        left: 21%;}
-
+        left: 21%;
+    }
     @media screen and (max-width: 1050px){
         bottom: 34px;
-        left: 139px;}
+        left: 139px;
 
-    @media screen and (max-width: 500px){bottom: 37px;}
+    }
+    @media screen and (max-width: 500px){
+        bottom: 37px;
+    }
 }
 
 .header-service{
     position: fixed;
     width:100%; 
-    z-index:1100;}
-    
+    z-index:1100;
+}
 .img-service-cover{
+
     object-fit: cover;
     width: 100%;
     height: 85vh;
-    z-index: 1000;}
 
+    z-index: 1000;
+    
+}
 .img-background{
     background: #323264;
     width: 100%;
     height: 113px;
     z-index: 900;
     position: fixed;
-    @media screen and (max-width: 1050px) {height: 135px;}
+    @media screen and (max-width: 1050px) {
+        height: 135px;
+    }
 }
-
 .background-4{
-    background-image: url(../img/Cover.png);
+    background-image: url(../img/bg-desktop.png);
     height: fit-content; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     z-index: 1000;
-    position: relative;}
+    position: relative;
+}
 
 .flex-end a{
     position: relative;
     &:hover{
         &::before{
             transform: scalex(1);
-            transition: transform 0.25s;}
+            transition: transform 0.25s;
+        }
     }
 }
-
 .flex-end a{
     &::before{
         content: '';
             width: 100%;
-            height: 1px;
+            height: 2px;
             background-color: white;
             position: absolute;
             left: 0;
-            bottom: -2px;
-            transform: scalex(0);}
+            bottom: -4px;
+            transform: scalex(0);
+    }
 }
+
+a.list-hover-pink{
+    position: relative;
+    &:hover{
+        &::before{
+            transform: scalex(1);
+            transition: transform 0.25s;
+        }
+    }
+}
+
+
+a.list-hover-pink{
+    &::before{
+        content: '';
+            width: 100%;
+            height: 2px;
+            background-color: $pink;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            transform: scalex(0);
+    }
+}
+.list-hover-none{
+    &:hover{
+        &::before{
+            content: '';
+                display: none;
+        }
+    }
+}
+
