@@ -10,10 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../services-pages/service-style/services-style.css">
+    <link rel="stylesheet" href="../services_pages/service-style/services-style.css">
     <link rel="stylesheet" href="../services_pages/service-style/_services-style-main.scss">
     <link rel="stylesheet" href="../../styles/index.css">
-    <title>Document</title>
+    <title>Структуризація корпоративних відносин</title>
 </head>
 
 <body>
@@ -30,6 +30,7 @@
     
                         </div>
                     </a>
+                       
                     <div>
                         <div class="flex header-info">
                             <div class="lang-block">
@@ -63,12 +64,12 @@
                             </div>
                             <ul class="flex-end">
                                 <li class="list-padding list-style"><a href="../../pages/about-us.html">о нас</a></li>
-                                <li class="list-padding list-style"><a
-                                        style="border-bottom: 2px solid white; padding-bottom: 2px;" href="../../pages/page-services.html">послуги</a>
+                                <li class="list-padding list-style"><a class="list-hover-none"
+                                        style="border-bottom: 2px solid white; padding-bottom: 2px;" href="../page-services.html">послуги</a>
                                 </li>
                                 <li class="list-padding list-style"><a href="../../pages/members.html">команда</a></li>
-                                <li class="list-padding list-style"><a href="../../pages/publication.html">публікації</a></li>
-                                <li class="list-padding list-style"><a href="../../pages/contact-page.html">контакти</a></li>
+                                <li class="list-padding list-style"><a href="../publication.html">публікації</a></li>
+                                <li class="list-padding list-style"><a href="../contact-page.html">контакти</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -81,7 +82,7 @@
         <div class="conteiner" style=" z-index: 1000; padding-top: 125px">
             <div>
                 <div class="flex-services">
-                    <img style="padding-top: 40px;" class="box-img" src="../../img/Icon-3.png" alt="">
+                    <img style="padding-top: 40px;" class="box-img" src="../../img/commerc.png" alt="">
                     <p style="padding-bottom: 25px;" class="description center-text">Структуризація корпоративних відносин</p>
                     <p class="services-text" style="color: #fff;">Нескінчений потік договорів, податкові питання, трудові відносини,
                         корпоративні
@@ -96,22 +97,21 @@
                         інформаційних
                         технологій.</p>
                 </div>
-                <div class="flex-center padding-popup">
+                
+                <div class="padding-popup flex-center">
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-popup" data-toggle="modal"
                         data-target="#exampleModalCenter">
-                        Безкоштовна консультація
+                            Безкоштовна консультація
                     </button>
 
-                    <!-- Modal -->
                     <div class="modal fade popup-background" id="exampleModalCenter" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content popup-style">
                                 <div class="modal-header header-popup">
-                                    <h5 class="modal-title popup-title" id="exampleModalLongTitle">Ми хотіли б Вам
-                                        допомогти</h5>
+                                    <h1 class="popup-header-contact">Ми хотіли б Вам допомогти</h1>
                                     <button type="button" class="close close-popup" data-dismiss="modal"
                                         aria-label="Close">
                                         <span aria-hidden="true">
@@ -123,15 +123,16 @@
                                 <div class="modal-body">
                                     <div class="form-main">
                                         <form class="form" action="#">
-                                            <input class="input-text-popup" type="text" placeholder="Iм’я">
-                                            <input class="input-text large-input" type="text"
+                                            <input class="input-text-popup popup-width" type="text" placeholder="Iм’я">
+                                            <input class="input-text large-input popup-width" type="text"
                                                 placeholder="Повідомлення">
                                             <div class="popup-flex">
-                                                <p class="popup-text">Як вам відповісти?</p>
+                                                <p style="margin-left: 20px;" class="popup-text">Як вам відповісти?</p>
                                             </div>
-                                            <input class="input-text-popup" type="number" placeholder="Номер телефона">
-                                            <input class="input-text-popup" type="email" placeholder="Чи email">
-                                            <button class="btn-popup ">Надіслати запит</button>
+                                            <input class="input-text-popup popup-width" type="number"
+                                                placeholder="Номер телефона">
+                                            <input class="input-text-popup popup-width" type="email" placeholder="Чи email">
+                                            <button style="margin-bottom: 20px;" class="btn-popup ">Надіслати запит</button>
                                         </form>
                                     </div>
                                 </div>
