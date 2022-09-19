@@ -684,6 +684,11 @@ a.list-style-blue {
   line-height: 30px;
   color: #323264;
 }
+@media screen and (max-width: 900px) {
+  .contact-text {
+    margin-top: 50px;
+  }
+}
 
 .flex-contact {
   display: flex;
